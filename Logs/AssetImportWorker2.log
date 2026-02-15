@@ -10,11 +10,11 @@ D:\ProgramFiles\Unity_TuanJie\Editor\2022.3.62t3\Editor\Tuanjie.exe
 -noUpm
 -disableFMOD
 -name
-AssetImportWorker0
+AssetImportWorker2
 -projectPath
 D:/Me/MyProject/UnityFramework
 -logFile
-Logs/AssetImportWorker0.log
+Logs/AssetImportWorker2.log
 -srvPort
 61644
 Successfully changed project path to: D:/Me/MyProject/UnityFramework
@@ -50,18 +50,18 @@ D:/Me/MyProject/UnityFramework
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2244]  Target information:
+Player connection [45664]  Target information:
 
-Player connection [2244]  * "[IP] 192.168.0.188 [Port] 0 [Flags] 2 [Guid] 2983183453 [EditorId] 2983183453 [Version] 1048832 [Id] WindowsEditor(7,zhangsong) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [45664]  * "[IP] 192.168.0.188 [Port] 0 [Flags] 2 [Guid] 218433254 [EditorId] 218433254 [Version] 1048832 [Id] WindowsEditor(7,zhangsong) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [2244] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [2244] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [45664] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [45664] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 AS: AutoStreaming module initializing.
 [LiveLink] LiveLink library is loaded successfully. Initializing...
 InitScreenManager.Setting multithreaded rendering option only supported for iOS, tvOS and Android platforms, Samsung TV provided
 Multithreaded rendering setting removed for platform Samsung TV
-Refreshing native plugins compatible for Editor in 76.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 75.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.62t3 (ae9db220f21b)
 [Subsystems] Discovering subsystems at path D:/ProgramFiles/Unity_TuanJie/Editor/2022.3.62t3/Editor/Data/Resources/UnitySubsystems
@@ -77,46 +77,46 @@ Initialize mono
 Mono path[0] = 'D:/ProgramFiles/Unity_TuanJie/Editor/2022.3.62t3/Editor/Data/Managed'
 Mono path[1] = 'D:/ProgramFiles/Unity_TuanJie/Editor/2022.3.62t3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/ProgramFiles/Unity_TuanJie/Editor/2022.3.62t3/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56640
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56828
 Begin MonoManager ReloadAssembly
 Registering precompiled tuanjie dll's ...
 Register platform support module: D:/ProgramFiles/Unity_TuanJie/Editor/2022.3.62t3/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/ProgramFiles/Unity_TuanJie/Editor/2022.3.62t3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.033505 seconds.
-- Loaded All Assemblies, in  1.805 seconds
+Registered in 0.026617 seconds.
+- Loaded All Assemblies, in  1.753 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.307 seconds
-Domain Reload Profiling: 3112ms
-	BeginReloadAssembly (611ms)
+- Finished resetting the current domain, in  1.314 seconds
+Domain Reload Profiling: 3067ms
+	BeginReloadAssembly (585ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (4ms)
-	RebuildCommonClasses (173ms)
-	RebuildNativeTypeToScriptingClass (58ms)
-	initialDomainReloadingComplete (238ms)
+	RebuildCommonClasses (151ms)
+	RebuildNativeTypeToScriptingClass (63ms)
+	initialDomainReloadingComplete (227ms)
 	LoadAllAssembliesAndSetupDomain (725ms)
-		LoadAssemblies (607ms)
+		LoadAssemblies (583ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (718ms)
-			TypeCache.Refresh (711ms)
-				TypeCache.ScanAssembly (658ms)
+		AnalyzeDomain (715ms)
+			TypeCache.Refresh (709ms)
+				TypeCache.ScanAssembly (664ms)
 			ScanForSourceGeneratedMonoScriptInfo (2ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (1308ms)
+	FinalizeReload (1316ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1064ms)
+		SetupLoadedEditorAssemblies (1089ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (46ms)
-			SetLoadedEditorAssemblies (29ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (30ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (11ms)
-			ProcessInitializeOnLoadAttributes (874ms)
-			ProcessInitializeOnLoadMethodAttributes (104ms)
+			BeforeProcessingInitializeOnLoad (13ms)
+			ProcessInitializeOnLoadAttributes (890ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -126,7 +126,7 @@ Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  2.737 seconds
+- Loaded All Assemblies, in  2.803 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -134,48 +134,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.765 seconds
-Domain Reload Profiling: 6500ms
-	BeginReloadAssembly (638ms)
+- Finished resetting the current domain, in  3.789 seconds
+Domain Reload Profiling: 6591ms
+	BeginReloadAssembly (680ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (28ms)
+		DisableScriptedObjects (23ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (78ms)
-	RebuildCommonClasses (177ms)
-	RebuildNativeTypeToScriptingClass (62ms)
-	initialDomainReloadingComplete (161ms)
-	LoadAllAssembliesAndSetupDomain (1696ms)
-		LoadAssemblies (1475ms)
+		CreateAndSetChildDomain (91ms)
+	RebuildCommonClasses (187ms)
+	RebuildNativeTypeToScriptingClass (54ms)
+	initialDomainReloadingComplete (164ms)
+	LoadAllAssembliesAndSetupDomain (1713ms)
+		LoadAssemblies (1464ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (638ms)
-			TypeCache.Refresh (543ms)
-				TypeCache.ScanAssembly (472ms)
-			ScanForSourceGeneratedMonoScriptInfo (73ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (3767ms)
+		AnalyzeDomain (687ms)
+			TypeCache.Refresh (568ms)
+				TypeCache.ScanAssembly (496ms)
+			ScanForSourceGeneratedMonoScriptInfo (93ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (3792ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3063ms)
+		SetupLoadedEditorAssemblies (3043ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (31ms)
-			SetLoadedEditorAssemblies (25ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (20ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (250ms)
-			ProcessInitializeOnLoadAttributes (1910ms)
-			ProcessInitializeOnLoadMethodAttributes (836ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (276ms)
+			ProcessInitializeOnLoadAttributes (1865ms)
+			ProcessInitializeOnLoadMethodAttributes (841ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (40ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
 Setting multithreaded rendering option only supported for iOS, tvOS and Android platforms, Samsung TV provided
 Multithreaded rendering setting removed for platform Samsung TV
-Refreshing native plugins compatible for Editor in 18.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 15.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2633 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 24 unused Assets / (54.3 KB). Loaded Objects now: 3128.
-Memory consumption went from 98.3 MB to 98.3 MB.
-Total: 23.054000 ms (FindLiveObjects: 0.575700 ms CreateObjectMapping: 0.307000 ms MarkObjects: 21.779100 ms  DeleteObjects: 0.386500 ms)
+Memory consumption went from 97.8 MB to 97.8 MB.
+Total: 28.153100 ms (FindLiveObjects: 0.444400 ms CreateObjectMapping: 0.195500 ms MarkObjects: 27.184200 ms  DeleteObjects: 0.324000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -193,9 +193,65 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 278731.348509 seconds.
-  path: Assets/ResourceABs/atlas/item/1014.png
-  artifactKey: Guid(d19e9b108b03866459853eebb53a8514) Importer(PreviewImporter)
-Start importing Assets/ResourceABs/atlas/item/1014.png using Guid(d19e9b108b03866459853eebb53a8514) Importer(PreviewImporter) Launched and connected shader compiler TuanjieShaderCompiler.exe after 0.27 seconds
- -> (artifact id: 'ee06c78648e743ad7db17ad6b6a2097b') in 2.993681 seconds
+  Time since last request: 278731.360038 seconds.
+  path: Assets/ResourceABs/atlas/item/1016.png
+  artifactKey: Guid(ee28f05a60fb8884c9b13c207d0d72e9) Importer(PreviewImporter)
+Start importing Assets/ResourceABs/atlas/item/1016.png using Guid(ee28f05a60fb8884c9b13c207d0d72e9) Importer(PreviewImporter) Launched and connected shader compiler TuanjieShaderCompiler.exe after 0.28 seconds
+ -> (artifact id: 'c1b0bce14c1dc6f16df0da0c8c9c414b') in 2.937863 seconds
 Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.237486 seconds.
+  path: Assets/ResourceABs/view/RoleSelectView.prefab
+  artifactKey: Guid(17e25747d259dcf47abfb6e600e7ec59) Importer(PreviewImporter)
+Start importing Assets/ResourceABs/view/RoleSelectView.prefab using Guid(17e25747d259dcf47abfb6e600e7ec59) Importer(PreviewImporter)  -> (artifact id: '898607c37b98279df47ce6f600f961c1') in 0.026340 seconds
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 12.321964 seconds.
+  path: Assets/ResourceABs/view/ShareView.prefab
+  artifactKey: Guid(bbb7aee168f1eb345b5d88eb48862b2f) Importer(PreviewImporter)
+Start importing Assets/ResourceABs/view/ShareView.prefab using Guid(bbb7aee168f1eb345b5d88eb48862b2f) Importer(PreviewImporter)  -> (artifact id: '9e5fed2c86fb01141ae5e12ec102c30a') in 0.012937 seconds
+Number of asset objects unloaded after import = 126
+========================================================================
+Received Import Request.
+  Time since last request: 0.881511 seconds.
+  path: Assets/ResourceABs/view/SceneLoadingView.prefab
+  artifactKey: Guid(48dd2eb55665de3498bc8074f395170b) Importer(PreviewImporter)
+Start importing Assets/ResourceABs/view/SceneLoadingView.prefab using Guid(48dd2eb55665de3498bc8074f395170b) Importer(PreviewImporter)  -> (artifact id: 'bb462ecaa274bcbb60f15bfde427a0fa') in 0.019578 seconds
+Number of asset objects unloaded after import = 541
+========================================================================
+Received Import Request.
+  Time since last request: 0.488827 seconds.
+  path: Assets/ResourceABs/view/SelectServerView.prefab
+  artifactKey: Guid(1e868158d74311943a556404702bf5c7) Importer(PreviewImporter)
+Start importing Assets/ResourceABs/view/SelectServerView.prefab using Guid(1e868158d74311943a556404702bf5c7) Importer(PreviewImporter)  -> (artifact id: 'c3ecdfdb93d4ee5c033af4f47e1a36b7') in 0.008372 seconds
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 1.099341 seconds.
+  path: Assets/ResourceABs/view/RoleCreateView.prefab
+  artifactKey: Guid(f6369b3069a2ffa4cacfb2c57bddfc1d) Importer(PreviewImporter)
+Start importing Assets/ResourceABs/view/RoleCreateView.prefab using Guid(f6369b3069a2ffa4cacfb2c57bddfc1d) Importer(PreviewImporter)  -> (artifact id: 'de3e067286a4c1da48f8d11f1bbc9e45') in 0.017122 seconds
+Number of asset objects unloaded after import = 262
+========================================================================
+Received Import Request.
+  Time since last request: 2.371024 seconds.
+  path: Assets/ResourceABs/view/MainView.prefab
+  artifactKey: Guid(51b787c62c53ecc448bb9acbc73c69f7) Importer(PreviewImporter)
+Start importing Assets/ResourceABs/view/MainView.prefab using Guid(51b787c62c53ecc448bb9acbc73c69f7) Importer(PreviewImporter)  -> (artifact id: '1756e58beab6e2bef785ec03e7dac50c') in 0.003162 seconds
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 5.840221 seconds.
+  path: Assets/ResourceABs/view/StoreView.prefab
+  artifactKey: Guid(26189d33e2147da4b8c33866faed5feb) Importer(PreviewImporter)
+Start importing Assets/ResourceABs/view/StoreView.prefab using Guid(26189d33e2147da4b8c33866faed5feb) Importer(PreviewImporter)  -> (artifact id: '1c964c70d24817782c9c768fdff00605') in 0.012373 seconds
+Number of asset objects unloaded after import = 497
+========================================================================
+Received Import Request.
+  Time since last request: 0.401122 seconds.
+  path: Assets/ResourceABs/view/WindowLoadingView.prefab
+  artifactKey: Guid(430d817dcfb0b2344bdf1861be424a01) Importer(PreviewImporter)
+Start importing Assets/ResourceABs/view/WindowLoadingView.prefab using Guid(430d817dcfb0b2344bdf1861be424a01) Importer(PreviewImporter)  -> (artifact id: '202d29ca831867015410903a681c505f') in 0.002823 seconds
+Number of asset objects unloaded after import = 9

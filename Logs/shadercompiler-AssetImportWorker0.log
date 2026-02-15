@@ -1,6 +1,6 @@
-Base path: '/Applications/Unity/Hub/Editor/2020.3.22f1c1/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/2020.3.22f1c1/PlaybackEngines'
+Base path: 'D:/ProgramFiles/Unity_TuanJie/Editor/2022.3.62t3/Editor/Data', plugins path 'D:/ProgramFiles/Unity_TuanJie/Editor/2022.3.62t3/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 
-Unhandled exception: Protocol error - failed to read magic number (error -2147483644, transferred 0/4)
+Unhandled exception: Protocol error - failed to read magic number. Error code 0x80000004 (Not connected). (transferred 0/4)
 
 Quitting shader compiler process
